@@ -1,0 +1,172 @@
+body{
+  font-family: Montserrat
+}
+
+#title {
+  background-color: #ff4c68;
+
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat-black", sans-serif;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 3rem;
+  font-family: "Montserrat-bold", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+#iphone{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* navigation bar */
+
+.navbar-brand{
+  font-size: 300%;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-style: Montserrat-light;
+}
+
+.navbar{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* download buttons */
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* awesome font modifications */
+
+.fontawesome{
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.fontawesome:hover{
+  color: #d7385e;
+}
+
+/* Features Modifications */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features{
+  text-align: center;
+}
+
+/* Testimonials */
+
+#testimonials{
+  padding: 5% 18%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+
+.test-name{
+  padding-left: 1%;
+}
+
+#press{
+  background-color: #ff4c68;
+text-align: center;
+padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.price-head{
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  padding: 4% 4% 0;
+}
+
+.price-cards{
+  padding: 2%;
+}
+
+.price-deck{
+  padding: 4%
+}
+
+/* media queires */
+
+@media (max-width:990px){
+
+  #iphone{
+    position: static;
+    transform:
+    rotate(0deg);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+/* final section */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: Montserrat,sans-serif;
+  text-align: center;
+  padding: 5% 0 7%;
+  line-height: 2;
+}
+
+.cta-text{
+  width: 50%;
+  margin: auto;
+}
+
+/* footer */
+
+#footer{
+  padding: 5%;
+  text-align: center;
+}
+
+.footer-icons{
+  padding-bottom: 0.8%;
+}
+
+.footer-atag{
+  padding: 0 1%;
+  color: #000;
+}
